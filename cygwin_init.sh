@@ -13,4 +13,3 @@ rm .inputrc
 curl -sSL https://raw.githubusercontent.com/MartinSIbarra/terminalrc/master/bin/shell_init_script.sh | source /dev/stdin
 source ~/.bashrc
 reset
-exit
