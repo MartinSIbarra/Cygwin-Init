@@ -12,5 +12,5 @@ echo "Instalando terminal personalizada"
 rm .inputrc
 curl -sSL https://raw.githubusercontent.com/MartinSIbarra/terminalrc/master/bin/shell_init_script.sh | bash
 source ~/.bashrc
-. ~/.bashrc
 reset
+exit
