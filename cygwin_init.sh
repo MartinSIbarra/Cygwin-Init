@@ -6,7 +6,7 @@ wget rawgit.com/transcode-open/apt-cyg/master/apt-cyg
 install apt-cyg /bin
 rm apt-cyg
 apt-cyg update
-apt-cyg install lynx rsync git vim vim-common vim-doc vim-minimal vim-doc vim-lua
+apt-cyg install lynx rsync git vim vim-common vim-doc vim-minimal vim-doc vim-lua the_silver_searcher
 clear
 echo "Instalando terminal personalizada"
 rm .inputrc
