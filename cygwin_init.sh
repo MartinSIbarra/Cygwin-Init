@@ -10,7 +10,7 @@ apt-cyg install lynx rsync git vim vim-common vim-doc vim-minimal vim-doc vim-lu
 clear
 echo "Instalando terminal personalizada"
 rm .inputrc
-curl -sSL https://raw.githubusercontent.com/MartinSIbarra/terminalrc/master/bin/shell_init_script.sh | bash
+curl -sSL https://raw.githubusercontent.com/MartinSIbarra/terminalrc/master/bin/shell_init_script.sh | source /dev/stdin
 source ~/.bashrc
 reset
 exit
