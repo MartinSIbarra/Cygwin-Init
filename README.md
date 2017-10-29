@@ -1,13 +1,20 @@
 # Cygwin-Init
 Instalación inicial de paquetes para Cygwin
 
-* Instalar [Cygwin](https://cygwin.com/install.html)
+## Instalación de [Cygwin](https://cygwin.com/install.html)
 
-  Durante la instalación seleccionar los paquetes:
-  * lynx: A text-based Web Browser
-  * curl: Multi-protocol file transfer tool
+[Descarga](https://cygwin.com/setup-x86_64.exe)
 
-* Una vez finalizada la instalación de Cygwin, ejecutar el siguiente script (copiar y pegar en la terminal de cygwin)
+Durante la instalación seleccionar los paquetes:
+* **wget**: Utility to retrieve files from the WWW via HTTP and FTP
+* **curl**: Multi-protocol file transfer tool
+
+---------------
+
+## Instalación de paquetes
+
+Una vez finalizada la instalación de Cygwin, ejecutar el siguiente script (copiar y pegar en la terminal de cygwin)
+
 ```
-curl -sSL https://raw.githubusercontent.com/MartinSIbarra/Cygwin-Init/master/cygwin_init.sh | Bash
+curl -sSL https://raw.githubusercontent.com/MartinSIbarra/Cygwin-Init/master/cygwin_init.sh | source /dev/stdin
 ```
